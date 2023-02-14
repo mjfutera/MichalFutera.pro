@@ -10,12 +10,33 @@
         rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" 
         crossorigin="anonymous"
     >
-    <link rel="stylesheet" href="<?php get_template_directory()?>/style.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/style.css">
     <title>Hello world</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container mt-2 rounded bg-light shadow-lg">
+        <header class="main-header">
+            <div class="custom-logo">Logo</div>
+            <div class="search"><?php echo get_search_form()?></div>
+            <nav class="main-menu">Main menu</nav>
+        </header>
+        <section class="banner">
+            Banner
+        </section>
 
+        <section class="content-holder">
+            <article class="content">Main content</article>
+            <aside class="sidebar">Sidebar</aside>
+        </section>
+
+        <footer class="main-footer">
+            <aside class="footer-box">Footer box</aside>
+            <aside class="footer-box">Footer box</aside>
+            <aside class="footer-box">Footer box</aside>
+            <aside class="footer-box">Footer box</aside>
+        </footer>
+
+        <div class="powered">Powered by</div>
     </div>
     <script 
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 

@@ -6,6 +6,8 @@ Description: Personalised template for MichalFutera.Pro
 Version: 1.000
 */
 
-.container {
-    background-color: yellow;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+body {
+    font-family: 'Noto Sans', sans-serif;
 }
