@@ -14,14 +14,17 @@
     <title>Hello world</title>
 </head>
 <body>
-    <div class="container mt-2 rounded bg-light shadow-lg">
+<div class="bg-image" 
+     style="background-image: url('<?php echo get_template_directory_uri()?>/img/background.jpg');
+            height: 100vh">
+    <div class="container rounded bg-light shadow-lg">
         <header class="main-header">
             <div class="custom-logo">Logo</div>
-            <div class="search"><?php echo get_search_form()?></div>
-            <nav class="main-menu">Main menu</nav>
+            <div class="search"><?php get_search_form(); ?></div>
+            <nav class="main-menu"><?php wp_nav_menu(); ?></nav>
         </header>
         <section class="banner">
-            Banner
+            <progress max="100" value="110"></progress>
         </section>
 
         <section class="content-holder">
@@ -38,6 +41,7 @@
 
         <div class="powered">Powered by</div>
     </div>
+</div>
     <script 
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" 
