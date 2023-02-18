@@ -1,4 +1,4 @@
-// Blog template v. 1.004
+// Blog template v. 1.007
 // By Michal Futera
 // https://linktr.ee/mjfutera
 
