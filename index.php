@@ -1,4 +1,4 @@
-<!-- Blog template v. 1.007 -->
+<!-- Blog template v. 1.008 -->
 <!-- By Michal Futera -->
 <!-- https://linktr.ee/mjfutera -->
 
@@ -65,16 +65,22 @@
                         <div class="row">
                             <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
                                 <div>
-                                    <img src="<?php echo get_template_directory_uri()?>/img/testHeader.png" class="img-fluid">
+                                    <a href="<?php echo get_permalink()?>">
+                                        <img src="<?php echo get_template_directory_uri()?>/img/testHeader.png" class="img-fluid">
+                                    </a>    
                                 </div>
                             </div>
                             <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9">
                                 <h2>
-                                    <?php echo get_the_title(); ?>
+                                    <a href="<?php echo get_permalink()?>">
+                                        <?php echo get_the_title(); ?>
+                                    </a>
                                 </h2>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, quasi a! Quisquam, optio ullam laboriosam nobis, modi est animi ut deleniti culpa facilis labore a consequatur sunt! Reprehenderit recusandae iure atque expedita ullam, illum veritatis sequi autem reiciendis alias sit architecto pariatur consectetur aliquid facere itaque. Rem inventore harum autem.
+                                    <?php echo get_the_post(); ?>
                                 <br>
-                                <div class="btn btn-success">Read article</div>
+                                <a href="<?php echo get_permalink()?>">
+                                    <div class="btn btn-success">Read article</div>
+                                </a>
                             </div>
                         </div>
                     </article>
@@ -108,7 +114,8 @@
             </div>
         </div>
     </div>
-    <footer class="container text-center bg-dark text-light mt-1 p-3">&copy; by <a href="https://linktr.ee/mjfutera" target="_blank">Michał Futera</a> 2023 - <span id="currentYear"></span>. Template v. 1.007</footer>
+    <footer class="container text-center bg-dark text-light mt-1 p-3">&copy; by <a href="https://linktr.ee/mjfutera" target="_blank">Michał Futera</a> 2023 - 
+    <span id="currentYear"></span>. Template v. 1.008</footer>
     <script 
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" 
