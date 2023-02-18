@@ -1,6 +1,3 @@
-# MichalFutera.pro
-MichalFutera.pro - Wordpress Theme
-
 <div align="center">
 <a href="https://michalfutera.pro" target="_blank"><img src="https://user-images.githubusercontent.com/100314711/218329445-f2b7f1db-2943-41ec-9123-b0a7cf77d450.png" border="0" width="200"></a>
 <a href="https://twitter.com/mjfutera" target="_blank"><img src="https://user-images.githubusercontent.com/100314711/216403440-e92aff25-3452-4948-8805-f7ad944983fe.png" border="0" width="200"></a>
