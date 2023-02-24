@@ -3,7 +3,7 @@ Theme Name: MichalFutera.Pro
 Author: Michal Futera
 Author URI: https://linktr.ee/mjfutera 
 Description: Personalised template for MichalFutera.Pro
-Version: 1.008
+Version: 1.009
 */
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
 
@@ -42,6 +42,10 @@ a {
     max-width: 150px;
 }
 
+.partner-logo {
+    max-width: 100px;
+}
+
 /* marquee {
     --gap: 1rem;
     display: flex;
@@ -67,3 +71,26 @@ a {
         left: -150px;
     }
 }
+
+/* Od Bartka
+.front-page-thumbnail {
+    max-width: 100%;
+    width: 1500px;
+    right: 0;
+    left: 0;
+    height: 250px;
+    border: 1px solid black;
+      overflow: hidden;
+}
+  
+.front-page-thumbnail-pic {
+    width: 1500px;
+    height: 250px;
+}
+  
+@media all and (min-width: 768px) {
+    .front-page-thumbnail {
+      width: 250px;
+      aspect-ratio: 1/1;
+    }
+} */
