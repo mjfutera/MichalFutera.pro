@@ -1,4 +1,4 @@
-<!-- Blog template v. 1.010 -->
+<!-- Blog template v. 1.011 -->
 <!-- By Michal Futera -->
 <!-- https://linktr.ee/mjfutera -->
 
@@ -17,7 +17,7 @@
             </div>
         </div>
     </div>
-    <footer class="container text-center bg-dark text-light mt-1 p-3">&copy; by <a href="https://linktr.ee/mjfutera" target="_blank">Michał Futera</a> 2023 - <?php echo date('Y')?>. Template v. 1.010</footer>
+    <footer class="container text-center bg-dark text-light mt-1 p-3">&copy; by <a href="https://linktr.ee/mjfutera" target="_blank">Michał Futera</a> 2023 - <?php echo date('Y')?>. Template v. 1.011</footer>
     <script 
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" 
