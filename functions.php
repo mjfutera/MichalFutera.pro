@@ -1,5 +1,5 @@
 <?php
-// Blog template v. 1.008
+// Blog template v. 1.010
 // By Michal Futera
 // https://linktr.ee/mjfutera
 
