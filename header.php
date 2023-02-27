@@ -1,4 +1,4 @@
-<!-- Blog template v. 1.011 -->
+<!-- Blog template v. 1.012 -->
 <!-- By Michal Futera -->
 <!-- https://linktr.ee/mjfutera -->
 
@@ -18,7 +18,7 @@
 </head>
 <body>
     <div class="container">
-        <div class="row">
+        <div class="row bg-white">
             <div class="col col-12 p-1 mt-1 col-sm-12 col-md-3 col-lg-3 col-xl-3 bg-white">
                 <a href="<?php echo get_site_url(); ?>"><img src="<?php echo get_template_directory_uri()?>/img/logo.svg" class="rounded"></a>
             </div>
@@ -49,4 +49,4 @@
             </div>
         </div>
         <div class="row">
-            <div class="col col-12 mt-1 bg-white col-sm-12 col-md-10 col-lg-10 col-xl-10 p-3">
+            <div class="col col-12 mt-1 bg-white col-sm-12 col-md-12 col-lg-10 col-xl-10 p-3">

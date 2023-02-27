@@ -1,8 +1,8 @@
-<!-- Blog template v. 1.011 -->
+<!-- Blog template v. 1.012 -->
 <!-- By Michal Futera -->
 <!-- https://linktr.ee/mjfutera -->
 
-<aside class="col col-12 mt-1 bg-white col-sm-12 col-md-2 col-lg-2 col-xl-2 text-center p-3">
+<aside class="col col-12 mt-1 bg-white col-sm-12 col-md-12 col-lg-2 col-xl-2 text-center p-3">
     <h3>Supporters from BuyMeaCoffee</h3>
     <div id="supportersBuyMeaCoffe"></div>
     <hr>

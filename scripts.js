@@ -1,4 +1,4 @@
-// Blog template v. 1.011
+// Blog template v. 1.012
 // By Michal Futera
 // https://linktr.ee/mjfutera
 
@@ -8,7 +8,7 @@ const buyMeaCoffee = async () => {
     const data = await getData('https://api.michalfutera.pro/buymeacoffee/');
     const  supporters = data['supporters'].map(e => e['supporter_name']).join(', ');
     document.getElementById('supportersBuyMeaCoffe').innerText = supporters;
-    setTimeout(buyMeaCoffee, 10000);
+    setTimeout(buyMeaCoffee, 300000);
 }
 
 window.onload = () => {

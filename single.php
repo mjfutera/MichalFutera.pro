@@ -1,4 +1,4 @@
-<!-- Blog template v. 1.011 -->
+<!-- Blog template v. 1.012 -->
 <!-- By Michal Futera -->
 <!-- https://linktr.ee/mjfutera -->
 

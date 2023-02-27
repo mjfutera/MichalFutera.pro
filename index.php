@@ -1,4 +1,4 @@
-<!-- Blog template v. 1.011 -->
+<!-- Blog template v. 1.012 -->
 <!-- By Michal Futera -->
 <!-- https://linktr.ee/mjfutera -->
 
@@ -7,14 +7,14 @@
                 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
                     <article class="container">
                         <div class="row">
-                            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
-                                <div  class="front-page-thumbnail post-header-main">
-                                    <a href="<?php echo get_permalink()?>">
-                                        <img src="<?php echo get_template_directory_uri()?>/img/testHeader.png" class="front-page-thumbnail-pic post-header-main-pic">
-                                    </a>    
-                                </div>
+                            <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-3">
+                            <?php 
+                                if ( has_post_thumbnail() ) { 
+                                    the_post_thumbnail( 'full', array( 'class' => 'size-post-thumbnail' ) ); 
+                                } 
+                            ?>
                             </div>
-                            <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-9">
                                 <h2>
                                     <a href="<?php echo get_permalink()?>">
                                         <?php echo get_the_title(); ?>

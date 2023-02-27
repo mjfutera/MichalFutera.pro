@@ -3,9 +3,12 @@ Theme Name: MichalFutera.Pro
 Author: Michal Futera
 Author URI: https://linktr.ee/mjfutera 
 Description: Personalised template for MichalFutera.Pro
-Version: 1.010
+Version: 1.012
 */
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import "./additionalStyles/headerMenu.css";
+@import "./additionalStyles/animations.css";
+@import "./additionalStyles/links.css";
 
 body {
     background-image: url("https://picsum.photos/1920/1080");
@@ -15,10 +18,6 @@ body {
     background-attachment: fixed;
     height: 100vh;
     font-family: 'Kanit', sans-serif;
-}
-
-a {
-    text-decoration: none;
 }
 
 .sm-banner {
@@ -42,43 +41,31 @@ a {
     max-width: 150px;
 }
 
-.post-header-main-pic {
+.size-post-thumbnail {
     width: 100%;
 }
 
 @media all and (min-width: 768px) {
-    .post-header-main {
-        aspect-ratio: 1/1;
-    }
-
-    .post-header-main-pic {
-        object-fit: cover;
-        width: 235px;
-        aspect-ratio: 1 / 1;
-        top: 0px;
-        left: -150px;
+    .size-post-thumbnail {
+        aspect-ratio: 1/1; /* ustalenie szerokości obrazka */
+        height: 250px; /* ustalenie wysokości obrazka */
+        object-fit: none; /* wyłączenie domyślnego dopasowywania obrazka */
+        object-position: left; /* ustalenie pozycji obrazka */
     }
 }
 
-/* Od Bartka
-.front-page-thumbnail {
-    max-width: 100%;
-    width: 1500px;
-    right: 0;
-    left: 0;
-    height: 250px;
-    border: 1px solid black;
-      overflow: hidden;
+.cornerBanner {
+    position:fixed;
+    top:0;
+    right:0;
+    border:0;
+    z-index:2;
+    max-width:30vh;
+    animation: zoom-in-zoom-out 2s ease infinite;
 }
-  
-.front-page-thumbnail-pic {
-    width: 1500px;
-    height: 250px;
-}
-  
-@media all and (min-width: 768px) {
-    .front-page-thumbnail {
-      width: 250px;
-      aspect-ratio: 1/1;
+
+@media all and (max-width: 850px) {
+    .cornerBanner {
+        display: none;
     }
-} */  
+}

@@ -1,13 +1,16 @@
 <?php
-// Blog template v. 1.011
+// Blog template v. 1.012
 // By Michal Futera
 // https://linktr.ee/mjfutera
 
+
+add_theme_support( 'post-thumbnails' );
 
 /**
  * Register our sidebars and widgetized areas.
  *
  */
+
 function arphabet_widgets_init() {
 
 	register_sidebar( array(
