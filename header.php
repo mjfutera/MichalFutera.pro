@@ -1,4 +1,4 @@
-<!-- Blog template v. 1.012 -->
+<!-- Blog template v. 1.013 -->
 <!-- By Michal Futera -->
 <!-- https://linktr.ee/mjfutera -->
 
@@ -14,13 +14,14 @@
         crossorigin="anonymous"
     >
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>MichalFutera.pro <?php echo wp_title(); ?></title>
 </head>
 <body>
     <div class="container">
         <div class="row bg-white">
             <div class="col col-12 p-1 mt-1 col-sm-12 col-md-3 col-lg-3 col-xl-3 bg-white">
-                <a href="<?php echo get_site_url(); ?>"><img src="<?php echo get_template_directory_uri()?>/img/logo.svg" class="rounded"></a>
+                <a href="<?php echo get_site_url(); ?>"><img src="<?php echo get_template_directory_uri()?>/img/logo.svg" class="rounded" data-aos="flip-left"></a>
             </div>
             <div class="col col-12 text-center d-none d-sm-block mt-1 col-sm-12 col-md-9 col-lg-9 bg-white" id="header-banner">
                 <marquee direction="right">

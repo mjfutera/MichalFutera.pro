@@ -1,4 +1,4 @@
-<!-- Blog template v. 1.012 -->
+<!-- Blog template v. 1.013 -->
 <!-- By Michal Futera -->
 <!-- https://linktr.ee/mjfutera -->
 
@@ -8,11 +8,13 @@
                     <article class="container">
                         <div class="row">
                             <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-3">
-                            <?php 
-                                if ( has_post_thumbnail() ) { 
-                                    the_post_thumbnail( 'full', array( 'class' => 'size-post-thumbnail' ) ); 
-                                } 
-                            ?>
+                            <a href="<?php echo get_permalink()?>">
+                                <?php 
+                                    if ( has_post_thumbnail() ) { 
+                                        the_post_thumbnail( 'full', array( 'class' => 'size-post-thumbnail', 'data-aos' => 'fade-up-right' ) ); 
+                                    } 
+                                ?>
+                            </a>
                             </div>
                             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-9">
                                 <h2>

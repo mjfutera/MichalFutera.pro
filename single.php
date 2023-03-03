@@ -5,7 +5,16 @@
 <?php get_header(); ?>
                 <!-- Blog posts -->
                 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-                    <article class="container">                    
+                    <article class="container">    
+                        <div class="row">
+                            <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
+                            <?php 
+                                    if ( has_post_thumbnail() ) { 
+                                        the_post_thumbnail( 'full', array( 'class' => 'size-post-thumbnail' ) ); 
+                                    } 
+                                ?>
+                            </div>
+                        </div>                
                         <div class="row">
                             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                                 <h2>
