@@ -54,18 +54,4 @@ body {
     }
 }
 
-.cornerBanner {
-    position:fixed;
-    top:0;
-    right:0;
-    border:0;
-    z-index:2;
-    max-width:30vh;
-    animation: zoom-in-zoom-out 2s ease infinite;
-}
 
-@media all and (max-width: 850px) {
-    .cornerBanner {
-        display: none;
-    }
-}
